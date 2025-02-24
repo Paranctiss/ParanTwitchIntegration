@@ -1,0 +1,6 @@
+@ParanTwitchIntegration_HostAddress = http://localhost:5071
+
+GET {{ParanTwitchIntegration_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

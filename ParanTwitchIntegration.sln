@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParanTwitchIntegration.API", "ParanTwitchIntegration\ParanTwitchIntegration.API.csproj", "{AB379889-7D67-4E0A-BD38-479B28142C9E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51C5F21D-03FE-49E6-9B48-0182E30B0298} = {51C5F21D-03FE-49E6-9B48-0182E30B0298}
+		{5455BCB6-DFC6-43F9-B395-3E5A184ECFEE} = {5455BCB6-DFC6-43F9-B395-3E5A184ECFEE}
+		{C5DD2775-EF99-44F0-B254-F7802FBB4740} = {C5DD2775-EF99-44F0-B254-F7802FBB4740}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParanTwitchIntegration.Application", "ParanTwitchIntegration.Application\ParanTwitchIntegration.Application.csproj", "{51C5F21D-03FE-49E6-9B48-0182E30B0298}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5DD2775-EF99-44F0-B254-F7802FBB4740} = {C5DD2775-EF99-44F0-B254-F7802FBB4740}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParanTwitchIntegration.Persistence", "ParanTwitchIntegration.Persistence\ParanTwitchIntegration.Persistence.csproj", "{5455BCB6-DFC6-43F9-B395-3E5A184ECFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParanTwitchIntegration.Domain", "ParanTwitchIntegration.Domain\ParanTwitchIntegration.Domain.csproj", "{C5DD2775-EF99-44F0-B254-F7802FBB4740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB379889-7D67-4E0A-BD38-479B28142C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB379889-7D67-4E0A-BD38-479B28142C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB379889-7D67-4E0A-BD38-479B28142C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB379889-7D67-4E0A-BD38-479B28142C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C5F21D-03FE-49E6-9B48-0182E30B0298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C5F21D-03FE-49E6-9B48-0182E30B0298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C5F21D-03FE-49E6-9B48-0182E30B0298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C5F21D-03FE-49E6-9B48-0182E30B0298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5455BCB6-DFC6-43F9-B395-3E5A184ECFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5455BCB6-DFC6-43F9-B395-3E5A184ECFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5455BCB6-DFC6-43F9-B395-3E5A184ECFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5455BCB6-DFC6-43F9-B395-3E5A184ECFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DD2775-EF99-44F0-B254-F7802FBB4740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DD2775-EF99-44F0-B254-F7802FBB4740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DD2775-EF99-44F0-B254-F7802FBB4740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DD2775-EF99-44F0-B254-F7802FBB4740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
